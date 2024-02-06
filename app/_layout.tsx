@@ -16,6 +16,7 @@ export default () => {
     <ApplicationProvider theme={eva.light} {...eva}>
       <Stack>
         <Stack.Screen options={{headerShown: false}} name={"(auth)"}></Stack.Screen>
+        <Stack.Screen name={"(students)"}></Stack.Screen>
       </Stack>
     </ApplicationProvider>
   )
